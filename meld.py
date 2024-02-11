@@ -3,7 +3,7 @@ from openai import OpenAI
 from Levenshtein import ratio as levenshtein_ratio
 
 # if you publish the code delete the code or set as an environment var (os.environ.get("OPENAI_API_KEY")
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = KEY
 client = OpenAI(
     # This is the default and can be omitted
     api_key=OPENAI_API_KEY,
